@@ -28,49 +28,16 @@ This project involves creating a Bash script that generates a multiplication tab
 
 ### Full Multiplication Table
 
-Enter a number for the multiplication table: 3
-The full multiplication table for 3:
-3 x 1 = 3
-3 x 2 = 6
-3 x 3 = 9
-3 x 4 = 12
-3 x 5 = 15
-3 x 6 = 18
-3 x 7 = 21
-3 x 8 = 24
-3 x 9 = 27
-3 x 10 = 30
+![Script_1](/Images/Script_1.png)
 
 ### Partial Multiplication Table
 
-Enter a number for the multiplication table: 3
-Do you want a full table or a partial table? (Enter 'f' for full, 'p' for partial): p
-Enter the starting number (between 1 and 10): 2
-Enter the ending number (between 1 and 10): 4
-The partial multiplication table for 3 from 2 to 4:
-3 x 2 = 6
-3 x 3 = 9
-3 x 4 = 12
+![Script_2](/Images/Script_2.png)
 
 
 ### Handling Invalid Range
 
-Enter a number for the multiplication table: 3
-Do you want a full table or a partial table? (Enter 'f' for full, 'p' for partial): p
-Enter the starting number (between 1 and 10): 8
-Enter the ending number (between 1 and 10): 2
-Invalid range. Showing full table instead.
-The full multiplication table for 3:
-3 x 1 = 3
-3 x 2 = 6
-3 x 3 = 9
-3 x 4 = 12
-3 x 5 = 15
-3 x 6 = 18
-3 x 7 = 21
-3 x 8 = 24
-3 x 9 = 27
-3 x 10 = 30
+![Script_3](/Images/Script_3.png)
 
 The following is the code for the script:
 
@@ -146,7 +113,3 @@ while true; do
   fi
 done
 ```
-This code is saved as bash file.
-
-The following is evidence of how the code works:
-
